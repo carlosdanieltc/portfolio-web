@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSun } from '@fortawesome/free-regular-svg-icons'
+
 export const Header = () => {
     return (
         <header className="md:justify-end md:px-16 md:bg-gray-100 md:text-lg h-16 bg-zinc-800 flex items-center justify-between px-8 fixed w-full">
@@ -11,8 +14,8 @@ export const Header = () => {
                 <li className="nav-item"><a href="#projects">Proyectos</a></li>
                 <li className="nav-item"><a href="#contact">Contacto</a></li>
                 <li className="ml-3">
-                    <button id="dark-mode-button">
-                        <i className="bi bi-moon-stars-fill">N</i>
+                    <button id="dark-mode-button" className="">
+                        <FontAwesomeIcon icon={faSun}/>
                     </button>
                 </li>
             </ul>
