@@ -12,4 +12,21 @@
         @apply border-b-2
     }
 
+    .full-project-item{
+        @apply w-1/2 h-full mr-1 rounded-2xl
+    }
+
+    .skill-option{
+        @apply p-1 w-24 md:w-32 h-24 md:h-32 m-4  rounded-xl border-2 bg-primaryDark dark:bg-zinc-900 border-black text-white text-center flex flex-col justify-center items-center shadow-gray-600 shadow-lg
+    }
+
+    .skill-option-2{
+
+        @apply w-32 h-32 m-4  rounded-xl border-2 bg-gray-100 border-black text-black text-center flex flex-col justify-center items-center shadow-gray-400 shadow-lg
+    }
+
+    .technologies-default{
+        @apply w-5 h-5 mx-1
+    }
+
 }
