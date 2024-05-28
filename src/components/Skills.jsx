@@ -1,4 +1,5 @@
 import { tecnologiasImg } from './imgTech'
+import { herramientasImg } from './imgTech'
 
 export const Skills = () => {
     return (
@@ -18,7 +19,14 @@ export const Skills = () => {
                 </div>
                 <div className="md:w-1/2 flex flex-col justify-start pt-6 md:pt-10">
                     <h3 className="text-center md:text-3xl text-2xl font-medium py-2 mb-5">Herramientas</h3>
-
+                    <ul className="flex flex-wrap justify-center items-center md:mr-6">
+                        {herramientasImg.map((tech, index) => (
+                            <li key={index} className='skill-option'>
+                                <img className='w-1/2 mb-2' src={tech.img} alt={tech.title} />
+                                <h4>{tech.title}</h4>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             </div>
         </div>
