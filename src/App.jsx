@@ -1,3 +1,4 @@
+import { Contact } from "./components/Contact"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
 import { Projects } from "./components/Projects"
@@ -11,6 +12,7 @@ function App() {
       <Home></Home>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
     </>
   )
 }
