@@ -5,16 +5,16 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export const Home = () => {
     return (
-        <div className="md:bg-gray-100 md:h-screen md:pr-8 flex">
-            <div className="md:w-1/2 md:rounded-borderCustom md:z-50 md:pr-12 bg-zinc-800 flex items-center">
+        <div className="md:bg-gray-100 md:h-screen md:pr-8 md:flex-row flex flex-col">
+            <div className="md:w-1/2 md:rounded-borderCustom md:z-50 md:pr-12 bg-zinc-800 flex flex-col items-center justify-center pt-16 md:pt-0">
                 <p className="md:ml-12 md:block mt-4 text-4xl text-white absolute top-0 left-0 hidden">CT</p>
                 <img src={CarlosAvatar} className="md:rounded-full md:w-80 md:h-80 w-64 h-64 md:ml-auto" />
-                <div className="md:absolute text-5xl mb-3 w-24 bottom-2 lg:left-12 md:left-6 flex justify-between text-white">
+                <div className="md:absolute text-4xl md:text-5xl my-3 w-20 px-1 md:px-0 md:w-24 bottom-2 lg:left-12 md:left-6 flex justify-between text-white">
                     <a href="https://www.linkedin.com/in/tabaresin"><FontAwesomeIcon icon={faLinkedin} /></a>
                     <a href="https://github.com/carlosdanieltc"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
             </div>
-            <div className="md:w-7/12 flex flex-col pl-16 justify-center">
+            <div className="md:w-7/12 flex flex-col pl-16 justify-center bg-gray-100">
                 <h1 className='md:text-5xl font-medium'>Carlos Tabares</h1>
                 <h2 className="text-2xl md:text-3xl ml-1 font-medium">Frontend Developer</h2>
                 <p className="py-4 leading-7 md:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de
