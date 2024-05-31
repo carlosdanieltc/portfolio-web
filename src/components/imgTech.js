@@ -1,87 +1,89 @@
-import react from '../assets/technologies/react.png'
-import javaScript from '../assets/technologies/javascript.png'
-import typeScript from '../assets/technologies/typescript.png'
-import html from '../assets/technologies/html.png'
-import css from '../assets/technologies/css.png'
-import tailwind from '../assets/technologies/tailwind.png'
-import sass from '../assets/technologies/sass.png'
-import java from '../assets/technologies/java.png'
-import mySql from '../assets/technologies/mysql.png'
-import agile from '../assets/myTools/agile.png'
-import bootstrap from '../assets/myTools/bootstrap.png'
-import git from '../assets/myTools/git.png'
-import heidisql from '../assets/myTools/heidisql.png'
-import postman from '../assets/myTools/postman.webp'
-import sourcetree from '../assets/myTools/sourcetree.png'
-import visual_studio_code from '../assets/myTools/visual_studio_code.png'
-
 export const tecnologiasImg = [
     {
-        "img": react,
+        "img": '../../public/assets/technologies/react.png',
         "title": "React"
     },
     {
-        "img": javaScript,
+        "img": '../../public/assets/technologies/javascript.png',
         "title": "JavaScript"
     },
     {
-        "img": typeScript,
+        "img": '../../public/assets/technologies/typescript.png',
         "title": "TypeScript"
     },
     {
-        "img": html,
+        "img": '../../public/assets/technologies/html.png',
         "title": "HTML"
     },
     {
-        "img": css,
+        "img": '../../public/assets/technologies/css.png',
         "title": "CSS"
     },
     {
-        "img": tailwind,
+        "img": '../../public/assets/technologies/tailwind.png',
         "title": "Tailwind"
     },
     {
-        "img": sass,
+        "img": '../../public/assets/technologies/sass.png',
         "title": "Sass"
     },
     {
-        "img": java,
+        "img": '../../public/assets/technologies/java.png',
         "title": "Java"
     },
     {
-        "img": mySql,
+        "img": '../../public/assets/technologies/mysql.png',
         "title": "MySQL"
     }
 ]
 
 export const herramientasImg = [
     {
-        "img": visual_studio_code,
+        "img": '../../public/assets/myTools/visual_studio_code.png',
         "title": "Visual Studio"
     },
     {
-        "img": git,
+        "img": '../../public/assets/myTools/git.png',
         "title": "Git"
     },
     {
-        "img": heidisql,
+        "img": '../../public/assets/myTools/heidisql.png',
         "title": "HeidiSQL"
     },
     {
-        "img": postman,
+        "img": '../../public/assets/myTools/postman.webp',
         "title": "Postman"
     },
     {
-        "img": sourcetree,
+        "img": '../../public/assets/myTools/sourcetree.png',
         "title": "SourceTree"
     },
     {
-        "img": agile,
+        "img": '../../public/assets/myTools/agile.png',
         "title": "Agile"
     },
     {
-        "img": bootstrap,
+        "img": '../../public/assets/myTools/bootstrap.png',
         "title": "Bootstrap"
+    },
+    {
+        "img": '../../public/assets/myTools/vite.png',
+        "title": "Vite"
+    },
+]
+
+export const proyectosImg = () => [
+    {
+        "img": '../../public/assets/myProjects/GifApp.png',
+        "title": "GifsApp"
+    },
+    {
+        "img": '../../public/assets/myProjects/TodoApp.png',
+        "title": "ToDoList"
+    },
+    {
+        "img": '../../public/assets/myProjects/bbva2.png',
+        "title": "BBVA"
     },
 ]
 
