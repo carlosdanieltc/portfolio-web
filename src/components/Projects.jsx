@@ -1,4 +1,5 @@
 import { ProjectCard } from "./ProjectCard"
+import { projects } from './projectsList'
 
 export const Projects = () => {
     return (
@@ -9,7 +10,17 @@ export const Projects = () => {
                 <button className="bg-gray-600">Izquierda</button>
 
                 <div className="flex flex-col md:flex-row">
-                    <ProjectCard></ProjectCard>
+                    {projects.map((project, index) => (
+                        <ProjectCard
+                            key={index}
+                            title={project.title}
+                            description={project.description}
+                            projectLink={project.projectLink}
+                            gitHubLink={project.gitHubLink}
+                            imgProject={project.imgProject}
+                            technologies={project.technologies}
+                        />
+                    ))}
                 </div>
 
                 <button className="bg-gray-600">Derecha</button>
