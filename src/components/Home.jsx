@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export const Home = () => {
     return (
-        <div className="md:bg-gray-100 md:h-screen md:pr-8 md:flex-row flex flex-col">
+        <div id="home" className="md:bg-gray-100 md:h-screen md:pr-8 md:flex-row flex flex-col">
             <div className="md:w-1/2 md:rounded-borderCustom md:z-50 md:pr-12 bg-zinc-800 flex flex-col items-center justify-center pt-16 md:pt-0">
                 <p className="md:ml-12 md:block mt-4 text-4xl text-white absolute top-0 left-0 hidden">CT</p>
                 <img src={CarlosAvatar} className="md:rounded-full md:w-80 md:h-80 w-64 h-64 md:ml-auto" />
