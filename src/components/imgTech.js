@@ -34,6 +34,10 @@ export const tecnologiasImg = {
     mysql: {
         "img": '../../public/assets/technologies/mysql.png',
         "title": "MySQL"
+    },
+    liteElement: {
+        "img": '../../public/assets/technologies/lit.png',
+        "title": "LitElement"
     }
 }
 

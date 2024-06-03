@@ -1,4 +1,4 @@
-import { tecnologiasImg } from './imgTech'
+import { tecnologiasImg, herramientasImg } from './imgTech'
 
 export const projects = [ 
     {
@@ -9,7 +9,10 @@ export const projects = [
         imgProject: '../../public/assets/myProjects/GifApp.png',
         technologies: [
             tecnologiasImg.react, 
-            tecnologiasImg.javaScript
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
+            herramientasImg.vite
         ]
     },
     {
@@ -20,7 +23,10 @@ export const projects = [
         imgProject: '../../public/assets/myProjects/TodoApp.png',
         technologies: [
             tecnologiasImg.react, 
-            tecnologiasImg.javaScript
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
+            herramientasImg.vite
         ]
     },
     {
@@ -30,8 +36,10 @@ export const projects = [
         gitHubLink: 'https://github.com/carlosdanieltc/bbva-home',
         imgProject: '../../public/assets/myProjects/bbva2.png',
         technologies: [
-            tecnologiasImg.react, 
-            tecnologiasImg.javaScript
+            tecnologiasImg.liteElement,
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
         ]
     },
 ]
