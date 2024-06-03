@@ -1,5 +1,8 @@
 import { ProjectCard } from "./ProjectCard"
 import { projects } from './projectsList'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
 export const Projects = () => {
     return (
@@ -7,7 +10,7 @@ export const Projects = () => {
             <h1 className="md:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto py-2 md:pb-6">Mis proyectos realizados</h1>
             <div className="py-12 w-full flex flex-col md:flex-row justify-center items-center">
 
-                <button className="bg-gray-600">Izquierda</button>
+                <button className="text-5xl"><FontAwesomeIcon icon={faCircleChevronLeft}/></button>
 
                 <div className="flex flex-col md:flex-row mx-4">
                     {projects.map((project, index) => (
@@ -23,7 +26,7 @@ export const Projects = () => {
                     ))}
                 </div>
 
-                <button className="bg-gray-600">Derecha</button>
+                <button className="text-5xl"><FontAwesomeIcon icon={faCircleChevronRight}/></button>
 
             </div>
             <p className="text-center mx-4 my-4">Puedes ver todos mis proyectos en mi perfil de <a href="https://github.com/carlosdanieltc"
