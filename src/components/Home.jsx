@@ -1,9 +1,12 @@
 import CarlosAvatar from '../assets/CarlosAvatar.jpg';
-import imgPruebaProject from '../assets/myProjects/Bbva.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { LastProjects } from './LastProjects';
+import { projects } from './projectsList';
 
 export const Home = () => {
+    const lastTwoProjects = projects.slice(0, 2);
+
     return (
         <div id="home" className="md:bg-gray-100 md:h-screen md:pr-8 md:flex-row flex flex-col">
             <div className="md:w-1/2 md:rounded-borderCustom md:z-50 md:pr-12 bg-zinc-800 flex flex-col items-center justify-center pt-16 md:pt-0">
@@ -27,14 +30,13 @@ export const Home = () => {
                 <h4 className="my-4 font-medium text-2xl">Últimos proyectos:</h4>
 
                 <div className="md:w-4/5 w-full flex px-1 md:px-0 justify-center">
-                    <div className="mx-1 md:ml-0 hover:shadow-xl dark:shadow-md dark:hover:shadow-white rounded-xl">
-                        <a href="https://github.com/carlosdanieltc/react-gif-expert-" target="_blank"><img
-                            src={imgPruebaProject} className="w-full md:h-48 h-32 rounded-xl" alt="GiffApp" /></a>
-                    </div>
-                    <div className="mx-1 md:ml-1 hover:shadow-xl dark:shadow-md dark:hover:shadow-white rounded-xl">
-                        <a href="https://github.com/carlosdanieltc/todoList" target="_blank"><img
-                            src={imgPruebaProject} className="w-full md:h-48 h-32 rounded-xl" alt="TodoList" /></a>
-                    </div>
+                    {lastTwoProjects.map((project, index) => (
+                        <LastProjects
+                            key = { index }
+                            img = { project.imgProject }
+                            title = { project.title }
+                        />
+                    ))}
                 </div>
             </div>
         </div>
