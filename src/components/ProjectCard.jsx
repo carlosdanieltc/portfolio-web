@@ -11,8 +11,8 @@ export const ProjectCard = ({ title, description, projectLink, gitHubLink, imgPr
                         className="text-blue-400 font-medium"> Probar ahora</a></p>
                 </div>
                 <div className="w-full h-7 pl-2 pt-1 flex dark:bg-zinc-900 dark:rounded-b-xl">
-                    {technologies.map((tech, index) => (
-                        <img key={index} src={tech.src} alt={tech.alt} className="technologies-default"/>
+                     {technologies.map((tech, index) => (
+                        <img key={index} src={tech.img} alt={tech.title} className="technologies-default"/>                      
                     ))}
                 </div>
             </div>

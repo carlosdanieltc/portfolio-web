@@ -1,4 +1,4 @@
-import { proyectosImg } from './imgTech'
+import { tecnologiasImg } from './imgTech'
 
 export const projects = [ 
     {
@@ -8,7 +8,8 @@ export const projects = [
         gitHubLink: 'https://github.com/carlosdanieltc/react-gif-expert-',
         imgProject: '../../public/assets/myProjects/GifApp.png',
         technologies: [
-            
+            tecnologiasImg.react, 
+            tecnologiasImg.javaScript
         ]
     },
     {
@@ -16,9 +17,10 @@ export const projects = [
         description: 'Clásica TodoList realizada con React, donde además guardaremos en el LocalStorage los datos que hayamos introducido.',
         projectLink: 'https://carlosdanieltc.github.io/todoList/',
         gitHubLink: 'https://github.com/carlosdanieltc/todoList',
-        imgProject: '',
+        imgProject: '../../public/assets/myProjects/TodoApp.png',
         technologies: [
-            
+            tecnologiasImg.react, 
+            tecnologiasImg.javaScript
         ]
     },
     {
@@ -26,9 +28,10 @@ export const projects = [
         description: 'Página web realizada para la práctica de LitElement en la que veremos un ejemplo de ventana de inicio de bbva.',
         projectLink: 'https://carlosdanieltc.github.io/bbva-home/',
         gitHubLink: 'https://github.com/carlosdanieltc/bbva-home',
-        imgProject: '',
+        imgProject: '../../public/assets/myProjects/bbva2.png',
         technologies: [
-            
+            tecnologiasImg.react, 
+            tecnologiasImg.javaScript
         ]
     },
 ]
