@@ -10,6 +10,9 @@ export default {
         '88': '22rem',
         '104': '26rem'
       },
+      width: {
+
+      },
       colors: {
         primaryDark: '#282c34'
       },
