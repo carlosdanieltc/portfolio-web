@@ -2,7 +2,7 @@ import { tecnologiasImg } from './imgTech'
 import { herramientasImg } from './imgTech'
 
 export const Skills = () => {
-    console.log(Object.keys(tecnologiasImg))
+
     return (
         <div id="skills" className="bg-gray-100 md:pt-28 pb-12 pt-16 dark:text-white transition duration-300">
             <h1 className="md:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto py-2 md:pb-6">Habilidades</h1>

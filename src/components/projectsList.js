@@ -42,4 +42,43 @@ export const projects = [
             tecnologiasImg.javaScript,
         ]
     },
+    {
+        title: 'BBVA Home',
+        description: 'Página web realizada para la práctica de LitElement en la que veremos un ejemplo de ventana de inicio de bbva.',
+        projectLink: 'https://carlosdanieltc.github.io/bbva-home/',
+        gitHubLink: 'https://github.com/carlosdanieltc/bbva-home',
+        imgProject: '../../public/assets/myProjects/bbva2.png',
+        technologies: [
+            tecnologiasImg.liteElement,
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
+        ]
+    },
+    {
+        title: 'BBVA Home',
+        description: 'Página web realizada para la práctica de LitElement en la que veremos un ejemplo de ventana de inicio de bbva.',
+        projectLink: 'https://carlosdanieltc.github.io/bbva-home/',
+        gitHubLink: 'https://github.com/carlosdanieltc/bbva-home',
+        imgProject: '../../public/assets/myProjects/bbva2.png',
+        technologies: [
+            tecnologiasImg.liteElement,
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
+        ]
+    },
+    {
+        title: 'BBVA Home',
+        description: 'Página web realizada para la práctica de LitElement en la que veremos un ejemplo de ventana de inicio de bbva.',
+        projectLink: 'https://carlosdanieltc.github.io/bbva-home/',
+        gitHubLink: 'https://github.com/carlosdanieltc/bbva-home',
+        imgProject: '../../public/assets/myProjects/bbva2.png',
+        technologies: [
+            tecnologiasImg.liteElement,
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
+        ]
+    },
 ]
