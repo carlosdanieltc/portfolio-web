@@ -28,7 +28,7 @@ export const Projects = () => {
 
                 <button onClick={scrollLeft} className="text-5xl"><FontAwesomeIcon icon={faCircleChevronLeft}/></button>
 
-                <div ref={scrollContainerRef} className="flex w-[80rem] flex-col md:flex-row overflow-hidden">
+                <div ref={scrollContainerRef} className="flex w-[77.8rem] mx-5 flex-col md:flex-row overflow-hidden gap-x-10">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={index}
