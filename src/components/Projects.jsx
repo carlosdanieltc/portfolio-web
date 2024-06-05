@@ -1,23 +1,28 @@
 import { ProjectCard } from "./ProjectCard"
 import { projects } from './projectsList'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
-import { faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'
-import { useRef } from "react"
+import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'
+import { useRef, useState } from "react"
 
 export const Projects = () => {
 
+    const [currentCard, setCurrentCard] = useState(0)
     const scrollContainerRef = useRef(null);
 
     const scrollLeft = () => {
         if (scrollContainerRef.current) {
-            scrollContainerRef.current.scrollBy({ left: -430, behavior: 'smooth' });
+            scrollContainerRef.current.scrollBy({ left: -428, behavior: 'smooth' });
         }
+        setCurrentCard(currentCard - 1)
     };
 
     const scrollRight = () => {
         if (scrollContainerRef.current) {
-            scrollContainerRef.current.scrollBy({ left: 430, behavior: 'smooth' });
+            scrollContainerRef.current.scrollBy({ left: 428, behavior: 'smooth' });
+        }
+        
+        if(currentCard != projects.length -3){
+            setCurrentCard(currentCard + 1)
         }
     };
 
@@ -26,9 +31,18 @@ export const Projects = () => {
             <h1 className="md:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto py-2 md:pb-6">Mis proyectos realizados</h1>
             <div className="py-12 px-16 flex flex-col md:flex-row justify-center items-center">
 
-                <button onClick={scrollLeft} className="text-5xl"><FontAwesomeIcon icon={faCircleChevronLeft}/></button>
+                {currentCard == 0 ? (
+                    <button  className="text-5xl">
+                        <FontAwesomeIcon className="text-gray-300 cursor-default" icon={faCircleChevronLeft} />
+                    </button>
 
-                <div ref={scrollContainerRef} className="flex w-[77.8rem] mx-5 flex-col md:flex-row overflow-hidden gap-x-10">
+                ) : (
+                    <button onClick={scrollLeft} className="text-5xl">
+                        <FontAwesomeIcon className="text-black cursor-pointer" icon={faCircleChevronLeft} />
+                    </button>
+                )}
+
+                <div ref={scrollContainerRef} className="flex w-[77.9rem] mx-5 flex-col md:flex-row overflow-hidden gap-x-10">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={index}
@@ -42,7 +56,15 @@ export const Projects = () => {
                     ))}
                 </div>
 
-                <button onClick={scrollRight} className="text-5xl"><FontAwesomeIcon icon={faCircleChevronRight}/></button>
+                {currentCard == (projects.length) - 3 ? (
+                    <button  className="text-5xl">
+                        <FontAwesomeIcon className="text-gray-300 cursor-default" icon={faCircleChevronRight} />
+                    </button>
+                ) : (
+                    <button onClick={scrollRight} className="text-5xl">
+                        <FontAwesomeIcon className="text-black cursor-pointer" icon={faCircleChevronRight} />
+                    </button>
+                )}
 
             </div>
             <p className="text-center mx-4 my-4">Puedes ver todos mis proyectos en mi perfil de <a href="https://github.com/carlosdanieltc"
