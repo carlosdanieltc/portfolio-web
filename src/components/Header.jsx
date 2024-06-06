@@ -3,8 +3,8 @@ import { faSun } from '@fortawesome/free-regular-svg-icons'
 
 export const Header = () => {
     return (
-        <header className="md:justify-end md:px-16 md:bg-gray-100 md:text-lg h-16 bg-zinc-800 flex items-center justify-between px-8 fixed w-full tracking-wider">
-            <a href="#home" className="md:hidden text-4xl text-white">CT</a>
+        <header className="md:justify-end md:px-16 md:bg-gray-100 text-md 2xl:text-lg 2xl:h-16 h-14 bg-zinc-800 flex items-center justify-between px-8 fixed w-full tracking-wider">
+            <a href="#home" className="md:hidden 2xl:text-4xl text-white">CT</a>
             <button id="menu-button" className="md:hidden text-white text-4xl">
                 <i className="bi bi-list">AA</i>
             </button>
