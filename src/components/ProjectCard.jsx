@@ -1,12 +1,12 @@
 export const ProjectCard = ({ title, description, projectLink, gitHubLink, imgProject, technologies }) => {
     return (
         <>
-            <div className="w-1/3 h-full rounded-xl border-2 border-black shadow-gray-400 shadow-lg flex flex-col min-w-[32%]">
+            <div className="w-1/3 rounded-xl border-2 border-black shadow-gray-400 shadow-lg flex flex-col min-w-[32%] 2xl:min-w-[31%]">
                 <a href={gitHubLink} target="_blank"><img
                     src={imgProject} className="rounded-t-xl" alt="GiffApp" /></a>
                 <div className="bg-primaryDark text-white p-3 flex-grow">
-                    <h3 className="md:text-2xl text-xl">{title}</h3>
-                    <p className="text-sm">{description}<a
+                    <h3 className="text-2xl 2xl:text-3xl text-xl">{title}</h3>
+                    <p className="text-sm 2xl:text-base mt-2 2xl:mt-4 px-1">{description}<a
                         href={projectLink} target="_blank"
                         className="text-blue-400 font-medium"> Probar ahora</a></p>
                 </div>

@@ -5,6 +5,7 @@ import { projects } from './projectsList';
 
 export const Home = () => {
     const lastTwoProjects = projects.slice(0, 2);
+    console.log(lastTwoProjects)
 
     return (
         <div id="home" className="md:bg-gray-100 md:h-screen md:pr-8 md:flex-row flex flex-col">
@@ -19,21 +20,22 @@ export const Home = () => {
             <div className="md:w-7/12 flex flex-col pl-16 justify-center bg-gray-100 2xl:pt-0 pt-14">
                 <h1 className='text-4xl 2xl:text-5xl font-medium'>Carlos Tabares</h1>
                 <h2 className="text-xl 2xl:text-3xl ml-1 font-medium">Frontend Developer</h2>
-                <p className="py-4 text-sm 2xl:text-md w-11/12 leading-6 2xl:leading-7 2xl:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de
+                <p className="py-4 text-sm 2xl:text-base 2xl:text-md w-11/12 leading-6 2xl:leading-7 2xl:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de
                     software.
                     En 2022 terminé mi Ciclo Superior de DAM y ahora me enfoco en aprender y mejorar mis habilidades como
                     FrontEnd-Developer, ya que es lo que más me apasiona.
                 </p>
                 <a href="#contact"
-                    className="rounded-full bg-zinc-800 dark:bg-white dark:text-black text-white py-3 text-xs 2xl:text-md w-24 2xl:w-32 text-center hover:shadow-lg dark:shadow-sm dark:hover:shadow-white">Contáctame</a>
+                    className="rounded-full bg-zinc-800 dark:bg-white dark:text-black text-white py-3 text-xs 2xl:text-base w-24 2xl:w-32 text-center hover:shadow-lg dark:shadow-sm dark:hover:shadow-white 2xl:my-4">Contáctame</a>
                 <h4 className="my-4 font-medium 2xl:text-2xl">Últimos proyectos:</h4>
 
-                <div className="xl:w-4/5 w-full flex px-1 xl:px-0 2xl:justify-center">
+                <div className="w-4/5 flex px-2 2xl:px-0 2xl:justify-center">
                     {lastTwoProjects.map((project, index) => (
                         <LastProjects
                             key = { index }
                             img = { project.imgProject }
                             title = { project.title }
+                            gitHubLink = { project.gitHubLink}
                         />
                     ))}
                 </div>
