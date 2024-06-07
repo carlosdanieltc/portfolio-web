@@ -12,8 +12,8 @@ export const Home = () => {
                 <p className="md:ml-12 md:block mt-4 text-3xl 2xl:text-4xl text-white absolute top-0 left-0 hidden">CT</p>
                 <img src="../../public/assets/CarlosAvatar.jpg" className="md:rounded-full 2xl:w-80 2xl:h-80 w-64 h-64 md:ml-auto" />
                 <div className="md:absolute text-3xl 2xl:text-5xl my-3 w-16 2xl:w-20 px-1 md:px-0 2xl:w-24 bottom-2 md:left-12 flex justify-between text-white">
-                    <a href="https://www.linkedin.com/in/tabaresin"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href="https://github.com/carlosdanieltc"><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href="https://www.linkedin.com/in/tabaresin" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="https://github.com/carlosdanieltc" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
             </div>
             <div className="md:w-7/12 flex flex-col pl-16 justify-center bg-gray-100 2xl:pt-0 pt-14">

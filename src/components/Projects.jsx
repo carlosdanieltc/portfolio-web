@@ -27,9 +27,9 @@ export const Projects = () => {
     };
 
     return (
-        <div id="projects" className="bg-gray-100 flex flex-col md:py-28 w-full items-center">
-            <h1 className="md:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto py-2 md:pb-6">Mis proyectos realizados</h1>
-            <div className="py-12 px-16 flex flex-col md:flex-row justify-center items-center">
+        <div id="projects" className="bg-gray-100 flex flex-col py-14 2xl:py-28 w-full items-center">
+            <h1 className="2xl:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto py-3 2xl:pb-6">Mis proyectos realizados</h1>
+            <div className="w-full pt-8 2xl:py-12 px-16 flex flex-col md:flex-row justify-center items-center">
 
                 {currentCard == 0 ? (
                     <button  className="text-5xl">
@@ -42,7 +42,7 @@ export const Projects = () => {
                     </button>
                 )}
 
-                <div ref={scrollContainerRef} className="flex w-[77.9rem] mx-5 flex-col md:flex-row overflow-hidden gap-x-10">
+                <div ref={scrollContainerRef} className="flex 2xl:w-[77.9rem] mx-5 h-[22rem] flex-col md:flex-row overflow-hidden gap-x-5 2xl:gap-x-10">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={index}
@@ -67,7 +67,7 @@ export const Projects = () => {
                 )}
 
             </div>
-            <p className="text-center mx-4 my-4">Puedes ver todos mis proyectos en mi perfil de <a href="https://github.com/carlosdanieltc"
+            <p className="text-center mx-4 mt-3">Puedes ver todos mis proyectos en mi perfil de <a href="https://github.com/carlosdanieltc"
                 target="_blank" className="text-blue-600 font-medium">GitHub</a>.</p>
         </div>
     )
