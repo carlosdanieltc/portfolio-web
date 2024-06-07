@@ -43,7 +43,7 @@ export const Projects = () => {
                 )}
 
                 <div ref={scrollContainerRef} className="flex 2xl:w-[80rem] mx-5 h-96 2xl:h-[28rem] flex-col md:flex-row overflow-hidden gap-x-5 2xl:gap-x-10">
-                    {projects.map((project, index) => (
+                    {projects.slice().reverse().map((project, index) => (
                         <ProjectCard
                             key={index}
                             title={project.title}
