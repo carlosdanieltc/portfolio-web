@@ -4,7 +4,7 @@ import { LastProjects } from './LastProjects';
 import { projects } from './projectsList';
 
 export const Home = () => {
-    const lastTwoProjects = projects.slice(0, 2);
+    const lastTwoProjects = projects.slice(0, 2); // .slice(-2); para los ultimos dos
     console.log(lastTwoProjects)
 
     return (
