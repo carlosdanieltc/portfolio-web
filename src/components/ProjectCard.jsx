@@ -1,10 +1,10 @@
 export const ProjectCard = ({ title, description, projectLink, gitHubLink, imgProject, technologies }) => {
     return (
         <>
-            <div className="w-1/3 rounded-xl border-2 border-black shadow-gray-400 shadow-lg flex flex-col min-w-[32%] 2xl:min-w-[31%]">
+            <div className="rounded-xl border-2 border-black shadow-gray-400 shadow-lg flex flex-col md:min-w-[32%] 2xl:min-w-[31%]">
                 <a href={gitHubLink} target="_blank"><img
                     src={imgProject} className="rounded-t-xl" alt={title} /></a>
-                <div className="bg-primaryDark text-white p-3 flex-grow">
+                <div className="bg-primaryDark text-white p-3 pb-6 flex-grow">
                     <h3 className="text-2xl 2xl:text-3xl text-xl">{title}</h3>
                     <p className="text-sm 2xl:text-base mt-2 2xl:mt-4 px-1">{description}<a
                         href={projectLink} target="_blank"

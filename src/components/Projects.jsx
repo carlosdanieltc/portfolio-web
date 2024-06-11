@@ -29,20 +29,20 @@ export const Projects = () => {
     return (
         <div id="projects" className="bg-gray-100 flex flex-col py-10 2xl:py-28 w-full items-center">
             <h1 className="2xl:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto py-3 2xl:pb-6">Mis proyectos realizados</h1>
-            <div className="w-full pt-6 2xl:pt-12 2xl:pb-6 px-16 flex flex-col md:flex-row justify-center items-center">
+            <div className="w-full pt-6 2xl:pt-12 2xl:pb-6 px-6 md:px-16 flex md:flex-row justify-center items-center">
 
                 {currentCard == 0 ? (
-                    <button className="text-5xl">
+                    <button className="text-5xl hidden md:block">
                         <FontAwesomeIcon className="text-gray-300 cursor-default" icon={faCircleChevronLeft} />
                     </button>
 
                 ) : (
-                    <button onClick={scrollLeft} className="text-5xl">
+                    <button onClick={scrollLeft} className="text-5xl hidden md:block">
                         <FontAwesomeIcon className="text-gray-800 cursor-pointer" icon={faCircleChevronLeft} />
                     </button>
                 )}
 
-                <div ref={scrollContainerRef} className="flex 2xl:w-[80rem] mx-5 h-96 2xl:h-[28rem] flex-col md:flex-row overflow-hidden gap-x-5 2xl:gap-x-10">
+                <div ref={scrollContainerRef} className="flex 2xl:w-[80rem] md:mx-5 mx-1 md:h-96 2xl:h-[28rem] flex-col md:flex-row md:overflow-hidden gap-y-4 gap-x-5 2xl:gap-x-10">
                     {projects.slice().reverse().map((project, index) => (
                         <ProjectCard
                             key={index}
@@ -57,11 +57,11 @@ export const Projects = () => {
                 </div>
 
                 {currentCard == (projects.length) - 3 ? (
-                    <button  className="text-5xl">
+                    <button  className="text-5xl hidden md:block">
                         <FontAwesomeIcon className="text-gray-300 cursor-default" icon={faCircleChevronRight} />
                     </button>
                 ) : (
-                    <button onClick={scrollRight} className="text-5xl">
+                    <button onClick={scrollRight} className="text-5xl hidden md:block">
                         <FontAwesomeIcon className="text-gray-800 cursor-pointer" icon={faCircleChevronRight} />
                     </button>
                 )}
