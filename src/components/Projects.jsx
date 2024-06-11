@@ -38,7 +38,7 @@ export const Projects = () => {
 
                 ) : (
                     <button onClick={scrollLeft} className="text-5xl">
-                        <FontAwesomeIcon className="text-black cursor-pointer" icon={faCircleChevronLeft} />
+                        <FontAwesomeIcon className="text-gray-800 cursor-pointer" icon={faCircleChevronLeft} />
                     </button>
                 )}
 
@@ -62,7 +62,7 @@ export const Projects = () => {
                     </button>
                 ) : (
                     <button onClick={scrollRight} className="text-5xl">
-                        <FontAwesomeIcon className="text-black cursor-pointer" icon={faCircleChevronRight} />
+                        <FontAwesomeIcon className="text-gray-800 cursor-pointer" icon={faCircleChevronRight} />
                     </button>
                 )}
 

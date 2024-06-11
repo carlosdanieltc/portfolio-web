@@ -58,7 +58,7 @@ export const projects = [
     },
     {
         title: 'Buscador de Películas',
-        description: 'Buscador de películas realizado con React, conectado con la API de OMDb',
+        description: 'Buscador de películas realizado con React, conectado con la API de OMDb.',
         projectLink: 'https://carlosdanieltc.github.io/react-buscador-de-peliculas/',
         gitHubLink: 'https://github.com/carlosdanieltc/react-buscador-de-peliculas',
         imgProject: '../../public/assets/myProjects/Peliculas.png',

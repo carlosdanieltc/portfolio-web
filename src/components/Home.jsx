@@ -12,24 +12,24 @@ export const Home = () => {
             <div className="md:w-1/2 md:rounded-borderCustom md:z-50 md:pr-12 bg-zinc-800 flex flex-col items-center justify-center pt-16 md:pt-0">
                 <p className="md:ml-12 md:block mt-4 text-3xl 2xl:text-4xl text-white absolute top-0 left-0 hidden">CT</p>
                 <img src="../../public/assets/CarlosAvatar.jpg" className="md:rounded-full 2xl:w-80 2xl:h-80 w-64 h-64 md:ml-auto" />
-                <div className="md:absolute text-3xl 2xl:text-5xl my-3 w-16 2xl:w-20 px-1 md:px-0 2xl:w-24 bottom-2 md:left-12 flex justify-between text-white">
+                <div className="md:absolute text-4xl 2xl:text-5xl my-3 w-20 px-1 md:px-0 2xl:w-24 bottom-2 md:left-12 flex justify-between text-white">
                     <a href="https://www.linkedin.com/in/tabaresin" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                     <a href="https://github.com/carlosdanieltc" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
             </div>
-            <div className="md:w-7/12 flex flex-col pl-16 justify-center bg-gray-100 2xl:pt-0 pt-14">
-                <h1 className='text-4xl 2xl:text-5xl font-medium'>Carlos Tabares</h1>
-                <h2 className="text-xl 2xl:text-3xl ml-1 font-medium">Frontend Developer</h2>
-                <p className="py-4 text-sm 2xl:text-base 2xl:text-md w-11/12 leading-6 2xl:leading-7 2xl:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de
+            <div className="md:w-7/12 flex flex-col md:pl-16 justify-center items-center md:items-start bg-gray-100 2xl:pt-0 pt-6 md:pt-14">
+                <h1 className='text-5xl font-medium'>Carlos Tabares</h1>
+                <h2 className="text-xl 2xl:text-3xl md:ml-1 font-medium">Frontend Developer</h2>
+                <p className="py-6 md:py-4 text-sm 2xl:text-base 2xl:text-md w-11/12 leading-6 2xl:leading-7 2xl:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de
                     software.
                     En 2022 terminé mi Ciclo Superior de DAM y ahora me enfoco en aprender y mejorar mis habilidades como
                     FrontEnd-Developer, ya que es lo que más me apasiona.
                 </p>
                 <a href="#contact"
-                    className="rounded-full bg-zinc-800 dark:bg-white dark:text-black text-white py-3 text-xs 2xl:text-base w-24 2xl:w-32 text-center hover:shadow-lg dark:shadow-sm dark:hover:shadow-white 2xl:my-4">Contáctame</a>
+                    className="rounded-full bg-zinc-800 dark:bg-white dark:text-black text-white py-3 md:text-xs 2xl:text-base w-28 md:w-24 2xl:w-32 text-center hover:shadow-lg dark:shadow-sm dark:hover:shadow-white 2xl:my-4 my-2">Contáctame</a>
                 <h4 className="my-4 font-medium 2xl:text-2xl">Últimos proyectos:</h4>
 
-                <div className="w-4/5 flex px-2 2xl:px-0 2xl:justify-center">
+                <div className="md:w-4/5 mx-1 md:mx-0 flex md:px-2 2xl:px-0 2xl:justify-center">
                     {lastTwoProjects.map((project, index) => (
                         <LastProjects
                             key = { index }
