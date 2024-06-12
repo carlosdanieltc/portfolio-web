@@ -12,17 +12,8 @@
         @apply border-b-2
     }
 
-    .full-project-item{
-        @apply w-1/2 h-full mr-1 rounded-2xl
-    }
-
     .skill-option{
         @apply text-sm 2xl:text-base p-1 w-24 2xl:w-32 h-24 2xl:h-32 m-2 2xl:m-4  rounded-xl border-2 bg-primaryDark dark:bg-zinc-900 border-black text-white text-center flex flex-col justify-center items-center shadow-gray-600 shadow-lg
-    }
-
-    .skill-option-2{
-
-        @apply w-32 h-32 m-4  rounded-xl border-2 bg-gray-100 border-black text-black text-center flex flex-col justify-center items-center shadow-gray-400 shadow-lg
     }
 
     .technologies-default{
@@ -30,12 +21,16 @@
     }
 
     .showNavMobile{
-        @apply absolute md:static right-0 top-0 visible py-32 px-16 md:py-0 md:px-0 text-2xl md:text-lg h-screen bg-zinc-100 md:bg-inherit shadow-[0_2px_300px_-15px_rgba(0,0,0,0.3)]
+        @apply absolute md:static right-0 top-0 visible py-32 px-16 md:py-0 md:px-0 text-2xl md:text-lg h-screen bg-zinc-100 md:bg-inherit md:shadow-none shadow-[0_2px_300px_-15px_rgba(0,0,0,0.3)]
     }
 
     .showNavMobile li {
         @apply my-12
     }
+
+    .showNavMobile {
+        animation: slide-in 0.5s forwards;
+      }
 
     @keyframes slide-in {
         from {
@@ -44,9 +39,5 @@
         to {
           transform: translateX(0);
         }
-      }
-      
-      .showNavMobile {
-        animation: slide-in 0.5s forwards;
       }
 }
