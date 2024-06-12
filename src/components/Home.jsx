@@ -4,8 +4,7 @@ import { LastProjects } from './LastProjects';
 import { projects } from './projectsList';
 
 export const Home = () => {
-    const lastTwoProjects = projects.slice(-2); // .slice(-2); para los ultimos dos
-    console.log(lastTwoProjects)
+    const lastTwoProjects = projects.slice(-2);
 
     return (
         <div id="home" className="md:bg-gray-100 md:h-screen md:pr-8 md:flex-row flex flex-col">
