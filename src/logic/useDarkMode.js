@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 
 export const useDarkMode = () => {
   const [dark, setDark] = useState(false);
+  const htmlElement = document.documentElement;
 
   useEffect(() => {
-    const htmlElement = document.documentElement;
     if (dark) {
       htmlElement.classList.add('dark');
     } else {
