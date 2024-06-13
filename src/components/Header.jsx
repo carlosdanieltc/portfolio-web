@@ -12,9 +12,9 @@ export const Header = () => {
     }
 
     return (
-        <header className="md:px-16 md:bg-gray-100 text-md 2xl:text-lg 2xl:h-16 h-14 bg-zinc-800 flex items-center justify-between px-8 fixed w-full tracking-wider dark:md:bg-zinc-800 dark:text-white">
-            <a href="#home" className='text-4xl text-white md:text-black'>CT</a>
-            <button className={`md:hidden text-4xl z-50 ${visible ? "text-black" : "text-white"}`}>
+        <header className="md:px-16 md:bg-gray-100 text-md 2xl:text-lg 2xl:h-16 h-14 bg-zinc-800 flex items-center justify-between px-8 fixed w-full tracking-wider dark:bg-zinc-800 dark:text-white">
+            <a href="#home" className='text-4xl text-white md:text-black dark:text-white'>CT</a>
+            <button className={`md:hidden text-4xl z-30 dark:text-white ${visible ? "text-black" : "text-white"}`}>
                 <i className="bi bi-list" onClick={showMenu}><FontAwesomeIcon icon={faBars}/></i>
             </button>
             <Navbar visible={visible}/>
