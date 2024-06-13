@@ -16,7 +16,7 @@ export const Home = () => {
                     <a href="https://github.com/carlosdanieltc" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
             </div>
-            <div className="md:w-7/12 flex flex-col md:pl-16 justify-center items-center md:items-start bg-gray-100 2xl:pt-0 pt-6 md:pt-14">
+            <div className="md:w-7/12 flex flex-col md:pl-16 justify-center items-center md:items-start bg-gray-100 dark:bg-zinc-800 2xl:pt-0 pt-6 md:pt-14">
                 <h1 className='text-5xl font-medium'>Carlos Tabares</h1>
                 <h2 className="text-xl 2xl:text-3xl md:ml-1 font-medium">Frontend Developer</h2>
                 <p className="py-6 md:py-4 text-sm 2xl:text-base 2xl:text-md w-11/12 leading-6 2xl:leading-7 2xl:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de
