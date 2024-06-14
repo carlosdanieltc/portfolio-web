@@ -7,9 +7,9 @@ export const Contact = () => {
             <h1 className="text-4xl 2xl:text-5xl font-medium mb-8">Contacto</h1>
             <p className="text-center mx-4 mb-4 md:mb-0">Puedes contactarme enviándome un email a <a href="mailto:carlosdanieltc@gmail.com"><b className="text-blue-500">carlosdanieltc@gmail.com</b></a> o a través de mis redes sociales.</p>
             <p>Espero tu mensaje !</p>
-            <div className="my-6 text-4xl w-[4.7rem] flex justify-between">
-                <a href="https://www.linkedin.com/in/tabaresin"><FontAwesomeIcon icon={faLinkedin}/></a>
-                <a href="https://github.com/carlosdanieltc"><FontAwesomeIcon icon={faGithub}/></a>
+            <div className="my-6 text-5xl w-[6.5rem] flex justify-between">
+                <a href="https://www.linkedin.com/in/tabaresin" target="_blank"><FontAwesomeIcon icon={faLinkedin}/></a>
+                <a href="https://github.com/carlosdanieltc" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
             </div>
         </div>
     )
