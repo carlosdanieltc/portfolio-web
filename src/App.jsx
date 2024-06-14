@@ -1,7 +1,7 @@
 import { Contact } from "./components/Contact"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
-import { Projects } from "./components/Projects"
+import { Projects2Design } from "./components/Projects2Design"
 import { Skills } from "./components/Skills"
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header></Header>
       <Home></Home>
       <Skills></Skills>
-      <Projects></Projects>
+      <Projects2Design></Projects2Design>
       <Contact></Contact>
     </>
   )
