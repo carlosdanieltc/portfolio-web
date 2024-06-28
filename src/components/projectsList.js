@@ -3,7 +3,7 @@ import { tecnologiasImg, herramientasImg } from './imgTech';
 export const projects = [ 
     {
         title: 'GifsApp',
-        description: 'Proyecto realizado para la práctica de React, en el cuál conectamos con la API de Giphy y podemos realizar búsquedas de gifs de todo tipo.',
+        description: 'Proyecto realizado para la práctica de React, en él conectamos con la API de Giphy y podemos realizar búsquedas de gifs de todo tipo.',
         projectLink: 'https://carlosdanieltc.github.io/react-gif-expert-/',
         gitHubLink: 'https://github.com/carlosdanieltc/react-gif-expert-',
         imgProject: `${import.meta.env.BASE_URL}assets/myProjects/GifsApp.png`,
