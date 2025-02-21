@@ -34,7 +34,7 @@ export const projects = [
         description: 'Página web realizada para la práctica de LitElement en la que veremos un ejemplo de ventana de inicio de bbva.',
         projectLink: 'https://carlosdanieltc.github.io/bbva-home/',
         gitHubLink: 'https://github.com/carlosdanieltc/bbva-home',
-        imgProject: `${import.meta.env.BASE_URL}assets/myProjects/BBVA.png`,
+        imgProject: `${import.meta.env.BASE_URL}assets/myProjects/bbva2.png`,
         technologies: [
             tecnologiasImg.liteElement,
             tecnologiasImg.html,
@@ -62,6 +62,34 @@ export const projects = [
         projectLink: 'https://carlosdanieltc.github.io/react-buscador-de-peliculas/',
         gitHubLink: 'https://github.com/carlosdanieltc/react-buscador-de-peliculas',
         imgProject: `${import.meta.env.BASE_URL}assets/myProjects/Peliculas.png`,
+        technologies: [
+            tecnologiasImg.react, 
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
+            herramientasImg.vite
+        ]
+    },
+    {
+        title: 'Shopping Cart',
+        description: 'Shopping Cart realizado en curso de Midudev.',
+        projectLink: 'https://carlosdanieltc.github.io/react-shopping-cart/',
+        gitHubLink: 'https://github.com/carlosdanieltc/react-shopping-cart',
+        imgProject: `${import.meta.env.BASE_URL}assets/myProjects/ShoppingCart.png`,
+        technologies: [
+            tecnologiasImg.react, 
+            tecnologiasImg.html,
+            tecnologiasImg.css,
+            tecnologiasImg.javaScript,
+            herramientasImg.vite
+        ]
+    },
+    {
+        title: 'ZARA CHALLENGE',
+        description: 'Tienda online de móviles, con vistas de Lista, Detalle y Carrito con LocalStorage.',
+        projectLink: 'https://carlosdanieltc.github.io/zara-challenge/',
+        gitHubLink: 'https://github.com/carlosdanieltc/zara-challenge',
+        imgProject: `${import.meta.env.BASE_URL}assets/myProjects/ZaraChallenge.png`,
         technologies: [
             tecnologiasImg.react, 
             tecnologiasImg.html,

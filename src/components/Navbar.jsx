@@ -30,11 +30,11 @@ export const Navbar = ({ visible }) => {
                         {dark ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun} />}
                     </button>
                 </li>
-                <li className="ml-3 md:ml-6">
+                {/* <li className="ml-3 md:ml-6">
                     <button onClick={openModal} className='w-4 md:text-xl'>
                         <FontAwesomeIcon icon={faEarthAmerica} />
                     </button>
-                </li>
+                </li> */}
             </ul>
             <Modal isOpen={modalOpen} closeModal={closeModal}/>
         </>
