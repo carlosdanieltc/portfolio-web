@@ -18,11 +18,9 @@ export const Home = () => {
             </div>
             <div className="md:w-7/12 flex flex-col md:pl-16 justify-center items-center md:items-start bg-gray-100 dark:bg-zinc-800 2xl:pt-0 pt-6 md:pt-14">
                 <h1 className='text-5xl font-medium'>Carlos Tabares</h1>
-                <h2 className="text-xl 2xl:text-3xl md:ml-1 font-medium">Frontend Developer</h2>
-                <p className="py-6 md:py-4 text-sm 2xl:text-base 2xl:text-md w-11/12 leading-6 2xl:leading-7 2xl:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de
-                    software.
-                    En 2022 terminé mi Ciclo Superior de DAM y ahora me enfoco en aprender y mejorar mis habilidades como
-                    FrontEnd-Developer.
+                <h2 className="text-xl 2xl:text-3xl md:ml-1 font-medium">Software Developer</h2>
+                <p className="py-6 md:py-4 text-sm 2xl:text-base 2xl:text-md w-11/12 leading-6 2xl:leading-7 2xl:w-2/3 text-center md:text-start">¡Hola! Soy Carlos, vivo en Vigo, España y soy desarrollador de software.
+                En 2022 terminé mi Ciclo Superior de DAM y desde entonces me dedico a aprender y mejorar mis habilidades en desarrollo, explorando distintas tecnologías para crear soluciones eficientes e innovadoras.
                 </p>
                 <a href="#contact"
                     className="rounded-full bg-zinc-800 dark:bg-white dark:text-black text-white py-3 md:text-xs 2xl:text-base w-32 md:w-24 2xl:w-32 text-center hover:shadow-lg dark:shadow-sm dark:hover:shadow-white 2xl:my-4 my-2">Contáctame</a>
