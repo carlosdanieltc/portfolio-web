@@ -11,7 +11,7 @@ export const Skills = () => {
                     <h3 className="text-center 2xl:text-3xl text-2xl font-medium 2xl:py-2 mb-5">Tecnologías</h3>
                     <ul className="flex flex-wrap justify-center items-center 2xl:mr-6">
                         {Object.keys(tecnologiasImg).map((tech, index) => (
-                            <li key={index} className='skill-option'>
+                            <li key={index} className='skill-option'>                           
                                 <img className='w-1/3 2xl:w-1/2 mb-2' src={tecnologiasImg[tech].img} alt={tecnologiasImg[tech].title} />
                                 <h4>{tecnologiasImg[tech].title}</h4>
                             </li>

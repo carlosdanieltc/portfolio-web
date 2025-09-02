@@ -1,7 +1,23 @@
 export const tecnologiasImg = {
+    angular: {
+        "img": `${import.meta.env.BASE_URL}assets/technologies/angular.png`,
+        "title": "Angular"
+    },
     react: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/react.png`,
         "title": "React"
+    },
+    java: {
+        "img": `${import.meta.env.BASE_URL}assets/technologies/java.png`,
+        "title": "Java"
+    },
+    springBoot: {
+        "img": `${import.meta.env.BASE_URL}assets/technologies/springboot.png`,
+        "title": "SpringBoot"
+    },
+    mysql: {
+        "img": `${import.meta.env.BASE_URL}assets/technologies/mysql.png`,
+        "title": "MySQL"
     },
     javaScript: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/javascript.png`,
@@ -26,14 +42,6 @@ export const tecnologiasImg = {
     sass: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/sass.png`,
         "title": "Sass"
-    },
-    java: {
-        "img": `${import.meta.env.BASE_URL}assets/technologies/java.png`,
-        "title": "Java"
-    },
-    mysql: {
-        "img": `${import.meta.env.BASE_URL}assets/technologies/mysql.png`,
-        "title": "MySQL"
     },
     liteElement: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/lit.png`,
