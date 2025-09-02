@@ -3,9 +3,17 @@ export const tecnologiasImg = {
         "img": `${import.meta.env.BASE_URL}assets/technologies/angular.png`,
         "title": "Angular"
     },
+    typeScript: {
+        "img": `${import.meta.env.BASE_URL}assets/technologies/typescript.png`,
+        "title": "TypeScript"
+    },
     react: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/react.png`,
         "title": "React"
+    },
+    javaScript: {
+        "img": `${import.meta.env.BASE_URL}assets/technologies/javascript.png`,
+        "title": "JavaScript"
     },
     java: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/java.png`,
@@ -18,14 +26,6 @@ export const tecnologiasImg = {
     mysql: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/mysql.png`,
         "title": "MySQL"
-    },
-    javaScript: {
-        "img": `${import.meta.env.BASE_URL}assets/technologies/javascript.png`,
-        "title": "JavaScript"
-    },
-    typeScript: {
-        "img": `${import.meta.env.BASE_URL}assets/technologies/typescript.png`,
-        "title": "TypeScript"
     },
     html: {
         "img": `${import.meta.env.BASE_URL}assets/technologies/html.png`,
