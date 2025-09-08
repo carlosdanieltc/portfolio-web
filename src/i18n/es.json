@@ -1,0 +1,61 @@
+{
+    "navbar":{
+        "home":"Inicio",
+        "skills":"Habilidades",
+        "projects":"Proyectos",
+        "contact":"Contacto",
+        "languages":{
+            "spanish":"Español",
+            "english":"Inglés"
+        }
+    },
+    "home":{
+        "title":"Desarrollador de Software",
+        "about":"¡Hola! Soy Carlos, desarrollador de software con más de 2 años de experiencia. En 2022 terminé mi Ciclo Superior de DAM y desde entonces me dedico a aprender y mejorar mis habilidades en desarrollo. Échale un vistazo a mis últimos proyectos!",
+        "contactMeButton":"Contáctame!",
+        "lastProjects":"Últimos proyectos"
+    },
+    "skills":{
+        "technologies":"Tecnologías",
+        "tools":"Herramientas"
+    },
+    "myProjects":{
+        "myProjects":"Mis proyectos realizados",
+        "projects":{
+            "zaraChallenge":{
+                "title":"ZARA CHALLENGE",
+                "description":"Tienda online de móviles, con vistas de Lista, Detalle y Carrito con LocalStorage."
+            },
+            "shoppingCart":{
+                "title":"Shopping Cart",
+                "description":"Shopping Cart realizado en curso de Midudev."
+            },
+            "movieSearchEngine":{
+                "title":"Buscador de Películas",
+                "description":"Buscador de películas realizado con React, conectado con la API de OMDb."
+            },
+            "ticTacToe":{
+                "title":"Tic-Tac-Toe",
+                "description":"Proyecto realizado para la práctica de React del clásico juego Tic Tac Toe."
+            },
+            "bbvaHome":{
+                "title":"BBVA Home",
+                "description":"Página web realizada para la práctica de LitElement en la que veremos un ejemplo de ventana de inicio de bbva."
+            },
+            "toDoList":{
+                "title":"ToDoList",
+                "description":"Clásica TodoList realizada con React, donde además guardaremos en el LocalStorage los datos que hayamos introducido."
+            },
+            "gifsApp":{
+                "title":"GifsApp",
+                "description":"Proyecto realizado para la práctica de React, en él conectamos con la API de Giphy y podemos realizar búsquedas de gifs de todo tipo."
+            }
+        },
+        "tryNow":" Probar ahora",
+        "lastDescription":"Puedes ver todos mis proyectos en mi perfil de <0>Github.</0>"
+    },
+    "contact":{
+        "description":"Puedes contactarme enviándome un email a <1><0>carlosdanieltc@gmail.com</0></1> o a través de mis redes sociales.",
+        "lastMessage":"Espero tu mensaje !"
+    }
+}

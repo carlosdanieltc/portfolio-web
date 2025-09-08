@@ -1,0 +1,61 @@
+{
+    "navbar":{
+        "home":"Home",
+        "skills":"Skills",
+        "projects":"Projects",
+        "contact":"Contact",
+        "languages":{
+            "spanish":"Spanish",
+            "english":"English"
+        }
+    },
+    "home":{
+        "title":"Software Developer",
+        "about":"Hi! I'm Carlos, a software developer with over 2 years of experience. In 2022, I completed my Advanced Technical Degree in DAM, and since then I've been dedicated to learning and improving my development skills. Check out my latest projects!",
+        "contactMeButton":"Contact me!",
+        "lastProjects":"Last projects"
+    },
+    "skills":{
+        "technologies":"Technologies",
+        "tools":"Tools"
+    },
+    "myProjects":{
+        "myProjects":"My projects",
+        "projects":{
+            "zaraChallenge":{
+                "title":"ZARA CHALLENGE",
+                "description":"Online mobile phone store, with List, Detail, and Cart views with LocalStorage."
+            },
+            "shoppingCart":{
+                "title":"Shopping Cart",
+                "description":"Shopping Cart created during Midudev course."
+            },
+            "movieSearchEngine":{
+                "title":"Movie Search Engine",
+                "description":"Movie search engine built with React, connected to the OMDb API."
+            },
+            "ticTacToe":{
+                "title":"Tic-Tac-Toe",
+                "description":"Project created for React practice based on the classic game Tic Tac Toe."
+            },
+            "bbvaHome":{
+                "title":"BBVA Home",
+                "description":"Website created for the LitElement exercise, where we will see an example of the BBVA login window."
+            },
+            "toDoList":{
+                "title":"ToDoList",
+                "description":"Classic TodoList created with React, where we will also save the data we have entered in LocalStorage."
+            },
+            "gifsApp":{
+                "title":"GifsApp",
+                "description":"Project carried out for React practice, in which we connect to the Giphy API and can search for all kinds of GIFs."
+            }
+        },
+        "tryNow":" Try now",
+        "lastDescription":"You can see all my projects on my <0>GitHub</0> profile."
+    },
+    "contact":{
+        "description":"You can contact me by sending an email to <1><0>carlosdanieltc@gmail.com</0></1> or through my social media accounts.",
+        "lastMessage":"I look forward to your message!"
+    }
+}

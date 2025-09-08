@@ -3,11 +3,13 @@ import { projects } from './projectsList'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { useRef, useState } from "react"
+import { useTranslation } from 'react-i18next';
 
 export const Projects = () => {
 
     const [currentCard, setCurrentCard] = useState(0)
     const scrollContainerRef = useRef(null);
+    const { t } = useTranslation();
 
     const scrollLeft = () => {
         if (scrollContainerRef.current) {
@@ -28,7 +30,7 @@ export const Projects = () => {
 
     return (
         <div id="projects" className="bg-gray-100 flex flex-col py-1 2xl:py-28 w-full items-center dark:text-white dark:bg-zinc-800">
-            <h1 className="2xl:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto pb-3 pt-4 2xl:pb-6">Mis proyectos realizados</h1>
+            <h1 className="2xl:text-4xl text-3xl font-medium w-4/5 text-center border-b-2 mx-auto pb-3 pt-4 2xl:pb-6">{t('myProjects.myCompletedProjects')}</h1>
             <div className="w-full pt-6 2xl:pt-12 2xl:pb-6 px-6 md:px-16 flex md:flex-row justify-center items-center">
 
                 {currentCard == 0 ? (
